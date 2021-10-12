@@ -32,8 +32,8 @@ body {
     font-family: 'Rubik', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    margin: 0px;
-    
+    margin: 0px auto;
+    padding: 30px;
 }
 
 .vizual {
@@ -83,7 +83,7 @@ body {
 .akce {
     text-align: center;
     position: relative;
-    bottom: -30px;
+    bottom: -35px;
     border-radius: 10px;
     background-color: #f15f42;
     padding: 10px;
@@ -98,12 +98,15 @@ body {
 
 .bota {
     position: absolute;
-    top: 160px;
+    top: 180px;
     left: 230px;
 }
 
+.logo {
+    padding-bottom: 30px;
+}
+
 .slogan {
-    padding-top: 30px;
     font-size: 16px;
     font-weight: 500;
     color: #f5f5f5;
